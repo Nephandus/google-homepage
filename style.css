@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    margin-top: 0;
+    color: #222;
+    font-size: 13px;
+}
+li {
+    display: inline;
+    float: left;
+    padding: 13px;
+}
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#gridbutton {
+    border: none;
+    background: none;
+    color: grey;
+    }
+#gridbutton:hover {
+    color: black;
+}
+#signinbutton {
+    background-color: #4285f4;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    font-weight: bold;
+    line-height: 28px;
+    width: 73px;
+}
+
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 198px;
+}
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#search {
+    margin: 25px;
+    border-radius: 2em;
+    width: 584px;
+    height: 47px;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    font-size: 16px;
+
+    background-image: mdi-magnify;
+}
+#search:hover {
+    box-shadow: 0 1px 3px 1px lightgrey;
+}
+input {
+    padding-left: 17px;
+    font-family:'FontAwesome';
+}
+:placeholder-shown {
+    font-size: 16px;
+    color: #9aa0a6;
+}
+
+#searchbutton {
+    padding: 0 16px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    height: 36px;
+    margin: 4px;
+}
+#searchbutton:hover {
+    border-style: solid;
+}
+#luckybutton {
+    padding: 0 16px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    color: #3c4043;
+    height: 36px;
+}
+#luckybutton:hover {
+    border-style: solid;
+}
+.footbar {
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 0;
+    color: #5f6368;
+    background-color: rgba(231, 229, 229, 0.644);
+}
